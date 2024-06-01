@@ -11,8 +11,6 @@ def matchmake(queue, player):
     else:
         return "No match found"
 
-
-# don't touch below this line
 class Queue:
     def __init__(self):
         self.items = []
