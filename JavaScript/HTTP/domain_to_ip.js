@@ -9,7 +9,6 @@ async function fetchIPAddress(domain) {
     return respObject.Answer[0].data
   }
   
-  // don't touch below this line
   async function main() {
     const domain = 'example.com';
     const ipAddress = await fetchIPAddress(domain);
